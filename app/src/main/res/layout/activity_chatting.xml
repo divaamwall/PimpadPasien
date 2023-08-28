@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chatting.ChattingActivity">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="@color/main"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="32dp"
+            android:layout_marginStart="4dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_back_white" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:src="@drawable/profile" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_online"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="-22dp"
+            android:src="@drawable/profile"
+            android:visibility="gone"
+            app:civ_border_color="@color/online"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_offline"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="-14.5dp"
+            android:src="@drawable/profile"
+            android:visibility="gone"
+            app:civ_border_color="@color/offline"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:text="asep1"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/l1"
+        android:layout_width="match_parent"
+        android:layout_above="@id/r1"
+        android:layout_height="match_parent"
+        android:id="@+id/chatRecyclerView"/>
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/img_attach_image_file"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_attach_file"/>
+
+            <EditText
+                android:id="@+id/edtMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:background="@color/white"
+                android:hint="@string/type_message"
+                android:padding="12dp"
+                android:textColor="@color/colorText" />
+
+            <ImageButton
+                android:id="@+id/btnSendMessage"
+                android:layout_width="50dp"
+                android:src="@drawable/ic_bsend_white"
+                android:background="@drawable/sendbtn_background"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="@string/btn_register" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

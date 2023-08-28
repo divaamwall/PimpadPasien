@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Pimpad</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_app">Pimple Acne\nDetector</string>
+    <string name="title_detect">Detect</string>
+    <string name="title_chat">Chat</string>
+    <string name="greeting">Hallo,</string>
+    <string name="username">Username</string>
+    <string name="email_error_message">Format Email Salah</string>
+    <string name="password_error_message">Password harus lebih dari 6 karakter</string>
+    <string name="btn_register">Register</string>
+    <string name="have_account">Already Have an Account?</string>
+    <string name="btn_login">Login</string>
+    <string name="no_account">Don\'t Have Account ?</string>
+    <string name="btn_save">Save</string>
+    <string name="type_message">Tuliskan Pesan....</string>
+    <string name="menu_jenis">Jenis Jerawat : </string>
+    <string name="description">Deskripsi : </string>
+    <string name="cause">Penyebab : </string>
+    <string name="solution">Solusi : </string>
+    <string name="label_galeri">Galeri</string>
+    <string name="label_camera">Kamera</string>
+    <string name="label_detector">Deteksi</string>
+    <string name="menu_daftar">Daftar Jerawat</string>
+    <string name="keterangan_result">Keterangan :\nUntuk melihat solusi dari jerawat yang anda alami, kunjungi halaman Daftar Jerawat dibawah ini</string>
+    <string name="keterangan_result_detail">Keterangan :\nUntuk mengetahui informasi terkait jerawat yang anda alami, kunjungi halaman Daftar Jerawat</string>
+    <string name="hasil">Hasil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hasil_deteksi">Hasil Deteksi:</string>
+    <string name="title_resultDetect">Result</string>
+    <string name="nama_pengguna">Nama Pengguna:</string>
+    <string name="cari">Search....</string>
+    <string name="save_send_to_dokter"><![CDATA[Save & Send\nTo Dokter]]></string>
+    <string name="delete">Delete</string>
+    <string name="waktu_deteksi">Waktu Deteksi:</string>
+    <string name="informasi_jerawat">Baca informasi tentang jerawat</string>
+    <string name="informasi_jerawat_detail">Informasi jerawat dibawah ini bisa jelasin kamu lebih lanjut</string>
+    <string name="referensi">Referensi : </string>
+</resources>
