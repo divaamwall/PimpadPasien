@@ -7,11 +7,6 @@
 PIMPAD (Pimple Acne Detector) is an app who can help u to recognize your acne in your face by scanning the photo on the app.
 
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
 ## Demo
 [View demo here](https://drive.google.com/file/d/1W9yWG7X_8UeqDRuhx9NPzHkdqtKVxZDB/view?usp=sharing)
 
