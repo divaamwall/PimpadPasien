@@ -14,15 +14,6 @@ PIMPAD (Pimple Acne Detector) is an app who can help u to recognize your acne in
 ## Authors
 - [@divaamwall](https://www.github.com/divaamwall)
 
-
-## Installation
-
-Install my-project with npm
-
-```bash
-1. Download The APK
-2. Install The APK
-```
     
 ## Tech Stack
 
